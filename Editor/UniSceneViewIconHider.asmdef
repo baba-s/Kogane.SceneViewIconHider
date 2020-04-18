@@ -1,7 +1,6 @@
 {
-    "name": "com.baba_s.uni-scene-view-icon-hider",
+    "name": "UniSceneViewIconHider",
     "references": [],
-    "optionalUnityReferences": [],
     "includePlatforms": [
         "Editor"
     ],
@@ -10,5 +9,6 @@
     "overrideReferences": false,
     "precompiledReferences": [],
     "autoReferenced": true,
-    "defineConstraints": []
+    "defineConstraints": [],
+    "versionDefines": []
 }
