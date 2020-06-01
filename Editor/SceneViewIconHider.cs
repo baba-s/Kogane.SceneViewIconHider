@@ -2,18 +2,13 @@
 using System.Reflection;
 using UnityEditor;
 
-namespace UniSceneViewIconHider
+namespace Kogane.Internal
 {
 	/// <summary>
 	/// Scene ビューのアイコンを非表示にするエディタ拡張
 	/// </summary>
-	public static class SceneViewIconHider
+	internal static class SceneViewIconHider
 	{
-		//================================================================================
-		// デリゲート（static）
-		//================================================================================
-		public static Action OnHide { private get; set; }
-
 		//================================================================================
 		// 関数（static）
 		//================================================================================
@@ -22,20 +17,6 @@ namespace UniSceneViewIconHider
 		/// </summary>
 		[MenuItem( "Edit/UniSceneViewIconHider/Scene ビューのアイコンを非表示" )]
 		private static void HideFromMenu()
-		{
-			if ( OnHide != null )
-			{
-				OnHide();
-				return;
-			}
-
-			Hide();
-		}
-
-		/// <summary>
-		/// Scene ビューのアイコンを非表示にします
-		/// </summary>
-		public static void Hide()
 		{
 			var annotation  = Type.GetType( "UnityEditor.Annotation, UnityEditor" );
 			var classId     = annotation.GetField( "classID" );
