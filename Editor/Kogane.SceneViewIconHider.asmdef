@@ -1,5 +1,5 @@
 {
-    "name": "UniSceneViewIconHider",
+    "name": "Kogane.SceneViewIconHider",
     "references": [],
     "includePlatforms": [
         "Editor"
