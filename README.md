@@ -4,9 +4,9 @@ Scene ビューのアイコンをすべて非表示にすることができる�
 
 ## 使い方
 
-![2020-04-21_135712](https://user-images.githubusercontent.com/6134875/79827011-2da23080-83d8-11ea-9aa6-b80b7efb2fe3.png)
+![2022-08-28_125420](https://user-images.githubusercontent.com/6134875/187056617-ed659bea-35fa-4128-bc05-3cdd0344a7b8.png)
 
-Unity メニューの「Edit > UniSceneViewIconHider > Scene ビューのアイコンを非表示」を押すと
+Unity メニューの「Kogane > Scene ビューのアイコンを非表示」を押すと
 
 ![2020-04-21_135424](https://user-images.githubusercontent.com/6134875/79827010-2d099a00-83d8-11ea-816e-c4231737fa1e.png)
 
